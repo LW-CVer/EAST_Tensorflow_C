@@ -1,0 +1,51 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_95bad/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_95bad.dir/build.make CMakeFiles/cmTC_95bad.dir/build
+gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95bad.dir/CheckSymbolExists.c.o
+/opt/rh/devtoolset-7/root/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_95bad.dir/CheckSymbolExists.c.o   -c /opt/lw/test/east/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_95bad
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95bad.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/cc -fPIC     CMakeFiles/cmTC_95bad.dir/CheckSymbolExists.c.o  -o cmTC_95bad 
+CMakeFiles/cmTC_95bad.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_95bad] Error 1
+gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_95bad/fast] Error 2
+
+File /opt/lw/test/east/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_1ca26/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_1ca26.dir/build.make CMakeFiles/cmTC_1ca26.dir/build
+gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ca26.dir/CheckFunctionExists.c.o
+/opt/rh/devtoolset-7/root/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1ca26.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1ca26
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ca26.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1ca26.dir/CheckFunctionExists.c.o  -o cmTC_1ca26 -lpthreads 
+/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_1ca26] Error 1
+gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_1ca26/fast] Error 2
+
+

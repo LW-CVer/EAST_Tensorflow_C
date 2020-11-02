@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/opt/lw/test/east/include/east_base.hpp
+memory
+-
+string
+-
+vector
+-
+opencv2/core/mat.hpp
+/opt/lw/test/east/include/opencv2/core/mat.hpp
+
+/opt/lw/test/east/test/test.cpp
+iostream
+-
+../include/east_base.hpp
+/opt/lw/test/east/include/east_base.hpp
+opencv2/highgui/highgui.hpp
+/opt/lw/test/east/test/opencv2/highgui/highgui.hpp
+opencv2/imgproc/imgproc.hpp
+/opt/lw/test/east/test/opencv2/imgproc/imgproc.hpp
+
