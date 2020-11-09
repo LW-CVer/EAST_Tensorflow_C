@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/opt/lw/test/east/build/CMakeFiles/3.14.0-rc4/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/3.14.0-rc4/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /opt/rh/devtoolset-7/root/usr/bin/c++ 
@@ -23,38 +23,38 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/opt/lw/test/east/build/CMakeFiles/3.14.0-rc4/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/3.14.0-rc4/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_cca31/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_cca31.dir/build.make CMakeFiles/cmTC_cca31.dir/build
-gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cca31.dir/testCCompiler.c.o
-/opt/rh/devtoolset-7/root/usr/bin/cc    -o CMakeFiles/cmTC_cca31.dir/testCCompiler.c.o   -c /opt/lw/test/east/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_cca31
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cca31.dir/link.txt --verbose=1
-/opt/rh/devtoolset-7/root/usr/bin/cc      CMakeFiles/cmTC_cca31.dir/testCCompiler.c.o  -o cmTC_cca31 
-gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_6a257/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_6a257.dir/build.make CMakeFiles/cmTC_6a257.dir/build
+gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a257.dir/testCCompiler.c.o
+/opt/rh/devtoolset-7/root/usr/bin/cc    -o CMakeFiles/cmTC_6a257.dir/testCCompiler.c.o   -c /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_6a257
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a257.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/cc      CMakeFiles/cmTC_6a257.dir/testCCompiler.c.o  -o cmTC_6a257 
+gmake[1]: Leaving directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_eb108/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_eb108.dir/build.make CMakeFiles/cmTC_eb108.dir/build
-gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o
-/opt/rh/devtoolset-7/root/usr/bin/cc   -v -o CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/gmake cmTC_b975e/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_b975e.dir/build.make CMakeFiles/cmTC_b975e.dir/build
+gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o
+/opt/rh/devtoolset-7/root/usr/bin/cc   -v -o CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/opt/rh/devtoolset-7/root/usr/bin/cc
 Target: x86_64-redhat-linux
 Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-7/root/usr --mandir=/opt/rh/devtoolset-7/root/usr/share/man --infodir=/opt/rh/devtoolset-7/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --with-default-libstdcxx-abi=gcc4-compatible --with-isl=/builddir/build/BUILD/gcc-7.3.1-20180303/obj-x86_64-redhat-linux/isl-install --enable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
 Thread model: posix
 gcc version 7.3.1 20180303 (Red Hat 7.3.1-5) (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/cc1 -quiet -v /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccSePkDE.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/cc1 -quiet -v /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccRA7kMF.s
 GNU C11 (GCC) version 7.3.1 20180303 (Red Hat 7.3.1-5) (x86_64-redhat-linux)
 	compiled by GNU C version 7.3.1 20180303 (Red Hat 7.3.1-5), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version isl-0.16.1-GMP
 
@@ -73,15 +73,15 @@ GNU C11 (GCC) version 7.3.1 20180303 (Red Hat 7.3.1-5) (x86_64-redhat-linux)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 9297c6e7ca8f6c9f2474dcdc9331bbe8
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/as -v --64 -o CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o /tmp/ccSePkDE.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/as -v --64 -o CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o /tmp/ccRA7kMF.s
 GNU assembler version 2.28 (x86_64-redhat-linux) using BFD version version 2.28-11.el7
 COMPILER_PATH=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda/lib64/stubs/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_eb108
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb108.dir/link.txt --verbose=1
-/opt/rh/devtoolset-7/root/usr/bin/cc     -v CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o  -o cmTC_eb108 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_b975e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b975e.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/cc     -v CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o  -o cmTC_b975e 
 Using built-in specs.
 COLLECT_GCC=/opt/rh/devtoolset-7/root/usr/bin/cc
 COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper
@@ -91,10 +91,10 @@ Thread model: posix
 gcc version 7.3.1 20180303 (Red Hat 7.3.1-5) (GCC) 
 COMPILER_PATH=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda/lib64/stubs/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb108' '-mtune=generic' '-march=x86-64'
- /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjtPepK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_eb108 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7 -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda/lib64/stubs -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb108' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b975e' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLyj6OM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b975e /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7 -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda/lib64/stubs -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b975e' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit include dir info from above output: rv=done
@@ -110,21 +110,21 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_eb108/fast ]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_eb108.dir/build.make CMakeFiles/cmTC_eb108.dir/build]
-  ignore line: [gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/opt/rh/devtoolset-7/root/usr/bin/cc   -v -o CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_b975e/fast ]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_b975e.dir/build.make CMakeFiles/cmTC_b975e.dir/build]
+  ignore line: [gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/rh/devtoolset-7/root/usr/bin/cc   -v -o CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/rh/devtoolset-7/root/usr/bin/cc]
   ignore line: [Target: x86_64-redhat-linux]
   ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-7/root/usr --mandir=/opt/rh/devtoolset-7/root/usr/share/man --infodir=/opt/rh/devtoolset-7/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --with-default-libstdcxx-abi=gcc4-compatible --with-isl=/builddir/build/BUILD/gcc-7.3.1-20180303/obj-x86_64-redhat-linux/isl-install --enable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.3.1 20180303 (Red Hat 7.3.1-5) (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/cc1 -quiet -v /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccSePkDE.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/cc1 -quiet -v /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccRA7kMF.s]
   ignore line: [GNU C11 (GCC) version 7.3.1 20180303 (Red Hat 7.3.1-5) (x86_64-redhat-linux)]
   ignore line: [	compiled by GNU C version 7.3.1 20180303 (Red Hat 7.3.1-5), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version isl-0.16.1-GMP]
   ignore line: []
@@ -143,15 +143,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 9297c6e7ca8f6c9f2474dcdc9331bbe8]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/as -v --64 -o CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o /tmp/ccSePkDE.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/as -v --64 -o CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o /tmp/ccRA7kMF.s]
   ignore line: [GNU assembler version 2.28 (x86_64-redhat-linux) using BFD version version 2.28-11.el7]
   ignore line: [COMPILER_PATH=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda/lib64/stubs/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_eb108]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb108.dir/link.txt --verbose=1]
-  ignore line: [/opt/rh/devtoolset-7/root/usr/bin/cc     -v CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o  -o cmTC_eb108 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_b975e]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b975e.dir/link.txt --verbose=1]
+  ignore line: [/opt/rh/devtoolset-7/root/usr/bin/cc     -v CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o  -o cmTC_b975e ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/rh/devtoolset-7/root/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper]
@@ -161,13 +161,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.3.1 20180303 (Red Hat 7.3.1-5) (GCC) ]
   ignore line: [COMPILER_PATH=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda/lib64/stubs/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb108' '-mtune=generic' '-march=x86-64']
-  link line: [ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjtPepK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_eb108 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7 -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda/lib64/stubs -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b975e' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLyj6OM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b975e /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7 -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda/lib64/stubs -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /lib/../lib64/crtn.o]
     arg [/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccjtPepK.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccLyj6OM.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -182,7 +182,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_eb108] ==> ignore
+    arg [cmTC_b975e] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o] ==> ignore
@@ -192,7 +192,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
     arg [-L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../..] ==> dir [/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../..]
-    arg [CMakeFiles/cmTC_eb108.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_b975e.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -218,17 +218,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_a580b/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_a580b.dir/build.make CMakeFiles/cmTC_a580b.dir/build
-gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a580b.dir/feature_tests.c.o
-/opt/rh/devtoolset-7/root/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_a580b.dir/feature_tests.c.o   -c /opt/lw/test/east/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a580b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a580b.dir/link.txt --verbose=1
-/opt/rh/devtoolset-7/root/usr/bin/cc      CMakeFiles/cmTC_a580b.dir/feature_tests.c.o  -o cmTC_a580b 
-gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_91be3/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_91be3.dir/build.make CMakeFiles/cmTC_91be3.dir/build
+gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91be3.dir/feature_tests.c.o
+/opt/rh/devtoolset-7/root/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_91be3.dir/feature_tests.c.o   -c /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_91be3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91be3.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/cc      CMakeFiles/cmTC_91be3.dir/feature_tests.c.o  -o cmTC_91be3 
+gmake[1]: Leaving directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -238,17 +238,17 @@ gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_fc091/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_fc091.dir/build.make CMakeFiles/cmTC_fc091.dir/build
-gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fc091.dir/feature_tests.c.o
-/opt/rh/devtoolset-7/root/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_fc091.dir/feature_tests.c.o   -c /opt/lw/test/east/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_fc091
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc091.dir/link.txt --verbose=1
-/opt/rh/devtoolset-7/root/usr/bin/cc      CMakeFiles/cmTC_fc091.dir/feature_tests.c.o  -o cmTC_fc091 
-gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_3bab3/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_3bab3.dir/build.make CMakeFiles/cmTC_3bab3.dir/build
+gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3bab3.dir/feature_tests.c.o
+/opt/rh/devtoolset-7/root/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_3bab3.dir/feature_tests.c.o   -c /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3bab3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bab3.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/cc      CMakeFiles/cmTC_3bab3.dir/feature_tests.c.o  -o cmTC_3bab3 
+gmake[1]: Leaving directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -258,17 +258,17 @@ gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_9ff13/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_9ff13.dir/build.make CMakeFiles/cmTC_9ff13.dir/build
-gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9ff13.dir/feature_tests.c.o
-/opt/rh/devtoolset-7/root/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_9ff13.dir/feature_tests.c.o   -c /opt/lw/test/east/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9ff13
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ff13.dir/link.txt --verbose=1
-/opt/rh/devtoolset-7/root/usr/bin/cc      CMakeFiles/cmTC_9ff13.dir/feature_tests.c.o  -o cmTC_9ff13 
-gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_a64f6/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_a64f6.dir/build.make CMakeFiles/cmTC_a64f6.dir/build
+gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a64f6.dir/feature_tests.c.o
+/opt/rh/devtoolset-7/root/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_a64f6.dir/feature_tests.c.o   -c /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a64f6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a64f6.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/cc      CMakeFiles/cmTC_a64f6.dir/feature_tests.c.o  -o cmTC_a64f6 
+gmake[1]: Leaving directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -276,35 +276,35 @@ gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_9e042/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_9e042.dir/build.make CMakeFiles/cmTC_9e042.dir/build
-gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9e042.dir/testCXXCompiler.cxx.o
-/opt/rh/devtoolset-7/root/usr/bin/c++     -o CMakeFiles/cmTC_9e042.dir/testCXXCompiler.cxx.o -c /opt/lw/test/east/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_9e042
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e042.dir/link.txt --verbose=1
-/opt/rh/devtoolset-7/root/usr/bin/c++       CMakeFiles/cmTC_9e042.dir/testCXXCompiler.cxx.o  -o cmTC_9e042 
-gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_e7db4/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_e7db4.dir/build.make CMakeFiles/cmTC_e7db4.dir/build
+gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e7db4.dir/testCXXCompiler.cxx.o
+/opt/rh/devtoolset-7/root/usr/bin/c++     -o CMakeFiles/cmTC_e7db4.dir/testCXXCompiler.cxx.o -c /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e7db4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7db4.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/c++       CMakeFiles/cmTC_e7db4.dir/testCXXCompiler.cxx.o  -o cmTC_e7db4 
+gmake[1]: Leaving directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_41e61/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_41e61.dir/build.make CMakeFiles/cmTC_41e61.dir/build
-gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o
-/opt/rh/devtoolset-7/root/usr/bin/c++    -v -o CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/gmake cmTC_710b5/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_710b5.dir/build.make CMakeFiles/cmTC_710b5.dir/build
+gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o
+/opt/rh/devtoolset-7/root/usr/bin/c++    -v -o CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/opt/rh/devtoolset-7/root/usr/bin/c++
 Target: x86_64-redhat-linux
 Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-7/root/usr --mandir=/opt/rh/devtoolset-7/root/usr/share/man --infodir=/opt/rh/devtoolset-7/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --with-default-libstdcxx-abi=gcc4-compatible --with-isl=/builddir/build/BUILD/gcc-7.3.1-20180303/obj-x86_64-redhat-linux/isl-install --enable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
 Thread model: posix
 gcc version 7.3.1 20180303 (Red Hat 7.3.1-5) (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/cc1plus -quiet -v -D_GNU_SOURCE /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccQDakPQ.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/cc1plus -quiet -v -D_GNU_SOURCE /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccQ5PJ8Q.s
 GNU C++14 (GCC) version 7.3.1 20180303 (Red Hat 7.3.1-5) (x86_64-redhat-linux)
 	compiled by GNU C version 7.3.1 20180303 (Red Hat 7.3.1-5), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version isl-0.16.1-GMP
 
@@ -326,15 +326,15 @@ GNU C++14 (GCC) version 7.3.1 20180303 (Red Hat 7.3.1-5) (x86_64-redhat-linux)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 2f06f4cd9d92155a269283acf1f10eb6
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/as -v --64 -o CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQDakPQ.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/as -v --64 -o CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQ5PJ8Q.s
 GNU assembler version 2.28 (x86_64-redhat-linux) using BFD version version 2.28-11.el7
 COMPILER_PATH=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda/lib64/stubs/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_41e61
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41e61.dir/link.txt --verbose=1
-/opt/rh/devtoolset-7/root/usr/bin/c++      -v CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_41e61 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_710b5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_710b5.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/c++      -v CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_710b5 
 Using built-in specs.
 COLLECT_GCC=/opt/rh/devtoolset-7/root/usr/bin/c++
 COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper
@@ -344,10 +344,10 @@ Thread model: posix
 gcc version 7.3.1 20180303 (Red Hat 7.3.1-5) (GCC) 
 COMPILER_PATH=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda/lib64/stubs/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41e61' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccR45UGP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_41e61 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7 -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda/lib64/stubs -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41e61' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_710b5' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHdXlHU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_710b5 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7 -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda/lib64/stubs -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_710b5' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit include dir info from above output: rv=done
@@ -366,21 +366,21 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_41e61/fast ]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_41e61.dir/build.make CMakeFiles/cmTC_41e61.dir/build]
-  ignore line: [gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/opt/rh/devtoolset-7/root/usr/bin/c++    -v -o CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_710b5/fast ]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_710b5.dir/build.make CMakeFiles/cmTC_710b5.dir/build]
+  ignore line: [gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/rh/devtoolset-7/root/usr/bin/c++    -v -o CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/rh/devtoolset-7/root/usr/bin/c++]
   ignore line: [Target: x86_64-redhat-linux]
   ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/opt/rh/devtoolset-7/root/usr --mandir=/opt/rh/devtoolset-7/root/usr/share/man --infodir=/opt/rh/devtoolset-7/root/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-plugin --with-linker-hash-style=gnu --enable-initfini-array --with-default-libstdcxx-abi=gcc4-compatible --with-isl=/builddir/build/BUILD/gcc-7.3.1-20180303/obj-x86_64-redhat-linux/isl-install --enable-libmpx --enable-gnu-indirect-function --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.3.1 20180303 (Red Hat 7.3.1-5) (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/cc1plus -quiet -v -D_GNU_SOURCE /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccQDakPQ.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/cc1plus -quiet -v -D_GNU_SOURCE /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccQ5PJ8Q.s]
   ignore line: [GNU C++14 (GCC) version 7.3.1 20180303 (Red Hat 7.3.1-5) (x86_64-redhat-linux)]
   ignore line: [	compiled by GNU C version 7.3.1 20180303 (Red Hat 7.3.1-5), GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version isl-0.16.1-GMP]
   ignore line: []
@@ -402,15 +402,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 2f06f4cd9d92155a269283acf1f10eb6]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/as -v --64 -o CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQDakPQ.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/as -v --64 -o CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccQ5PJ8Q.s]
   ignore line: [GNU assembler version 2.28 (x86_64-redhat-linux) using BFD version version 2.28-11.el7]
   ignore line: [COMPILER_PATH=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda/lib64/stubs/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_41e61]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41e61.dir/link.txt --verbose=1]
-  ignore line: [/opt/rh/devtoolset-7/root/usr/bin/c++      -v CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_41e61 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_710b5]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_710b5.dir/link.txt --verbose=1]
+  ignore line: [/opt/rh/devtoolset-7/root/usr/bin/c++      -v CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_710b5 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/rh/devtoolset-7/root/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper]
@@ -420,13 +420,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.3.1 20180303 (Red Hat 7.3.1-5) (GCC) ]
   ignore line: [COMPILER_PATH=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/cuda/lib64/stubs/:/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41e61' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccR45UGP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_41e61 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7 -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda/lib64/stubs -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_710b5' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHdXlHU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_710b5 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7 -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/cuda/lib64/stubs -L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtend.o /lib/../lib64/crtn.o]
     arg [/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccR45UGP.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccHdXlHU.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -441,7 +441,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_41e61] ==> ignore
+    arg [cmTC_710b5] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/crtbegin.o] ==> ignore
@@ -451,7 +451,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/local/cuda/lib64/stubs] ==> dir [/usr/local/cuda/lib64/stubs]
     arg [-L/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../..] ==> dir [/opt/rh/devtoolset-7/root/usr/lib/gcc/x86_64-redhat-linux/7/../../..]
-    arg [CMakeFiles/cmTC_41e61.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_710b5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -475,17 +475,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_c38af/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_c38af.dir/build.make CMakeFiles/cmTC_c38af.dir/build
-gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c38af.dir/feature_tests.cxx.o
-/opt/rh/devtoolset-7/root/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_c38af.dir/feature_tests.cxx.o -c /opt/lw/test/east/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c38af
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c38af.dir/link.txt --verbose=1
-/opt/rh/devtoolset-7/root/usr/bin/c++       CMakeFiles/cmTC_c38af.dir/feature_tests.cxx.o  -o cmTC_c38af 
-gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_a1e80/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_a1e80.dir/build.make CMakeFiles/cmTC_a1e80.dir/build
+gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a1e80.dir/feature_tests.cxx.o
+/opt/rh/devtoolset-7/root/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_a1e80.dir/feature_tests.cxx.o -c /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a1e80
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1e80.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/c++       CMakeFiles/cmTC_a1e80.dir/feature_tests.cxx.o  -o cmTC_a1e80 
+gmake[1]: Leaving directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -548,17 +548,17 @@ gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_bb3a3/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_bb3a3.dir/build.make CMakeFiles/cmTC_bb3a3.dir/build
-gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bb3a3.dir/feature_tests.cxx.o
-/opt/rh/devtoolset-7/root/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_bb3a3.dir/feature_tests.cxx.o -c /opt/lw/test/east/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_bb3a3
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb3a3.dir/link.txt --verbose=1
-/opt/rh/devtoolset-7/root/usr/bin/c++       CMakeFiles/cmTC_bb3a3.dir/feature_tests.cxx.o  -o cmTC_bb3a3 
-gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_ef01a/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_ef01a.dir/build.make CMakeFiles/cmTC_ef01a.dir/build
+gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ef01a.dir/feature_tests.cxx.o
+/opt/rh/devtoolset-7/root/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_ef01a.dir/feature_tests.cxx.o -c /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ef01a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef01a.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/c++       CMakeFiles/cmTC_ef01a.dir/feature_tests.cxx.o  -o cmTC_ef01a 
+gmake[1]: Leaving directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -621,17 +621,17 @@ gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_6b815/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_6b815.dir/build.make CMakeFiles/cmTC_6b815.dir/build
-gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6b815.dir/feature_tests.cxx.o
-/opt/rh/devtoolset-7/root/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_6b815.dir/feature_tests.cxx.o -c /opt/lw/test/east/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6b815
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b815.dir/link.txt --verbose=1
-/opt/rh/devtoolset-7/root/usr/bin/c++       CMakeFiles/cmTC_6b815.dir/feature_tests.cxx.o  -o cmTC_6b815 
-gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_7782b/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_7782b.dir/build.make CMakeFiles/cmTC_7782b.dir/build
+gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7782b.dir/feature_tests.cxx.o
+/opt/rh/devtoolset-7/root/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_7782b.dir/feature_tests.cxx.o -c /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7782b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7782b.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/c++       CMakeFiles/cmTC_7782b.dir/feature_tests.cxx.o  -o cmTC_7782b 
+gmake[1]: Leaving directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -694,17 +694,17 @@ gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_2720d/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_2720d.dir/build.make CMakeFiles/cmTC_2720d.dir/build
-gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2720d.dir/feature_tests.cxx.o
-/opt/rh/devtoolset-7/root/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_2720d.dir/feature_tests.cxx.o -c /opt/lw/test/east/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2720d
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2720d.dir/link.txt --verbose=1
-/opt/rh/devtoolset-7/root/usr/bin/c++       CMakeFiles/cmTC_2720d.dir/feature_tests.cxx.o  -o cmTC_2720d 
-gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_0e81e/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_0e81e.dir/build.make CMakeFiles/cmTC_0e81e.dir/build
+gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0e81e.dir/feature_tests.cxx.o
+/opt/rh/devtoolset-7/root/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_0e81e.dir/feature_tests.cxx.o -c /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0e81e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e81e.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/c++       CMakeFiles/cmTC_0e81e.dir/feature_tests.cxx.o  -o cmTC_0e81e 
+gmake[1]: Leaving directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -765,30 +765,30 @@ gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_810e1/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_810e1.dir/build.make CMakeFiles/cmTC_810e1.dir/build
-gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_810e1.dir/CheckIncludeFile.c.o
-/opt/rh/devtoolset-7/root/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_810e1.dir/CheckIncludeFile.c.o   -c /opt/lw/test/east/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_810e1
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_810e1.dir/link.txt --verbose=1
-/opt/rh/devtoolset-7/root/usr/bin/cc -fPIC     CMakeFiles/cmTC_810e1.dir/CheckIncludeFile.c.o  -o cmTC_810e1 
-gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_c2b9b/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_c2b9b.dir/build.make CMakeFiles/cmTC_c2b9b.dir/build
+gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2b9b.dir/CheckIncludeFile.c.o
+/opt/rh/devtoolset-7/root/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_c2b9b.dir/CheckIncludeFile.c.o   -c /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c2b9b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2b9b.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/cc -fPIC     CMakeFiles/cmTC_c2b9b.dir/CheckIncludeFile.c.o  -o cmTC_c2b9b 
+gmake[1]: Leaving directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_1e286/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_1e286.dir/build.make CMakeFiles/cmTC_1e286.dir/build
-gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1e286.dir/CheckFunctionExists.c.o
-/opt/rh/devtoolset-7/root/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1e286.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.14/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1e286
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e286.dir/link.txt --verbose=1
-/opt/rh/devtoolset-7/root/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1e286.dir/CheckFunctionExists.c.o  -o cmTC_1e286 -lpthread 
-gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/gmake cmTC_7e9f7/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_7e9f7.dir/build.make CMakeFiles/cmTC_7e9f7.dir/build
+gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e9f7.dir/CheckFunctionExists.c.o
+/opt/rh/devtoolset-7/root/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7e9f7.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7e9f7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e9f7.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7e9f7.dir/CheckFunctionExists.c.o  -o cmTC_7e9f7 -lpthread 
+gmake[1]: Leaving directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
 
 

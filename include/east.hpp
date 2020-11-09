@@ -28,7 +28,8 @@ class East : public EastBase
     //后处理，会将结果存储在m_detection_resultsl
     std::vector<std::vector<float>> process(int h, int w,
                                             double score_threshold,
-                                            std::vector<float>& ratios);
+                                            std::vector<float>& ratios,
+                                            std::vector<float>& final_scores);
 };
 
 #endif

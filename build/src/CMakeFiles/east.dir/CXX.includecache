@@ -30,13 +30,13 @@ bits/stdio2.h
 bits/stdio-ldbl.h
 -
 
-/opt/lw/test/east/include/INIReader.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/INIReader.hpp
 map
 -
 string
 -
 
-/opt/lw/test/east/include/clipper.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/clipper.hpp
 cstdlib
 -
 cstring
@@ -56,13 +56,13 @@ stdexcept
 vector
 -
 
-/opt/lw/test/east/include/east.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/east.hpp
 east_base.hpp
-/opt/lw/test/east/include/east_base.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/east_base.hpp
 tensorflow/core/public/session.h
-/opt/lw/test/east/include/tensorflow/core/public/session.h
+/opt/lw/test/EAST_Tensorflow_C/include/tensorflow/core/public/session.h
 
-/opt/lw/test/east/include/east_base.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/east_base.hpp
 memory
 -
 string
@@ -70,31 +70,31 @@ string
 vector
 -
 opencv2/core/mat.hpp
-/opt/lw/test/east/include/opencv2/core/mat.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/opencv2/core/mat.hpp
 
-/opt/lw/test/east/include/ini.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/ini.hpp
 ../../../../../../../usr/include/stdio.h
 /../../usr/include/stdio.h
 
-/opt/lw/test/east/include/lanms.h
+/opt/lw/test/EAST_Tensorflow_C/include/lanms.h
 clipper.hpp
-/opt/lw/test/east/include/clipper.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/clipper.hpp
 
-/opt/lw/test/east/include/util.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/util.hpp
 opencv2/core/mat.hpp
 -
 vector
 -
 tensorflow/core/framework/tensor.h
-/opt/lw/test/east/include/tensorflow/core/framework/tensor.h
+/opt/lw/test/EAST_Tensorflow_C/include/tensorflow/core/framework/tensor.h
 tensorflow/core/public/session.h
-/opt/lw/test/east/include/tensorflow/core/public/session.h
+/opt/lw/test/EAST_Tensorflow_C/include/tensorflow/core/public/session.h
 
-/opt/lw/test/east/src/INIReader.cpp
+/opt/lw/test/EAST_Tensorflow_C/src/INIReader.cpp
 ../include/INIReader.hpp
-/opt/lw/test/east/include/INIReader.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/INIReader.hpp
 ../include/ini.hpp
-/opt/lw/test/east/include/ini.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/ini.hpp
 algorithm
 -
 cctype
@@ -102,9 +102,9 @@ cctype
 cstdlib
 -
 
-/opt/lw/test/east/src/clipper.cpp
+/opt/lw/test/EAST_Tensorflow_C/src/clipper.cpp
 ../include/clipper.hpp
-/opt/lw/test/east/include/clipper.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/clipper.hpp
 algorithm
 -
 cmath
@@ -122,23 +122,23 @@ stdexcept
 vector
 -
 
-/opt/lw/test/east/src/east.cpp
+/opt/lw/test/EAST_Tensorflow_C/src/east.cpp
 ../include/east.hpp
-/opt/lw/test/east/include/east.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/east.hpp
 ../include/INIReader.hpp
-/opt/lw/test/east/include/INIReader.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/INIReader.hpp
 ../include/ini.hpp
-/opt/lw/test/east/include/ini.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/ini.hpp
 ../include/lanms.h
-/opt/lw/test/east/include/lanms.h
+/opt/lw/test/EAST_Tensorflow_C/include/lanms.h
 ../include/util.hpp
-/opt/lw/test/east/include/util.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/util.hpp
 opencv2/imgproc/imgproc.hpp
-/opt/lw/test/east/src/opencv2/imgproc/imgproc.hpp
+/opt/lw/test/EAST_Tensorflow_C/src/opencv2/imgproc/imgproc.hpp
 tensorflow/core/platform/env.h
-/opt/lw/test/east/src/tensorflow/core/platform/env.h
+/opt/lw/test/EAST_Tensorflow_C/src/tensorflow/core/platform/env.h
 
-/opt/lw/test/east/src/ini.cpp
+/opt/lw/test/EAST_Tensorflow_C/src/ini.cpp
 ctype.h
 -
 stdio.h
@@ -146,13 +146,13 @@ stdio.h
 string.h
 -
 ../include/ini.hpp
-/opt/lw/test/east/include/ini.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/ini.hpp
 stdlib.h
 -
 
-/opt/lw/test/east/src/util.cpp
+/opt/lw/test/EAST_Tensorflow_C/src/util.cpp
 ../include/util.hpp
-/opt/lw/test/east/include/util.hpp
+/opt/lw/test/EAST_Tensorflow_C/include/util.hpp
 assert.h
 -
 math.h
@@ -170,7 +170,7 @@ opencv2/imgproc/imgproc.hpp
 vector
 -
 tensorflow/cc/ops/standard_ops.h
-/opt/lw/test/east/src/tensorflow/cc/ops/standard_ops.h
+/opt/lw/test/EAST_Tensorflow_C/src/tensorflow/cc/ops/standard_ops.h
 
 /usr/local/include/eigen3/Eigen/Cholesky
 Core

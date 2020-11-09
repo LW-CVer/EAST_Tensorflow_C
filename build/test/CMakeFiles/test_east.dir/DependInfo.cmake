@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/lw/test/east/test/test.cpp" "/opt/lw/test/east/build/test/CMakeFiles/test_east.dir/test.cpp.o"
+  "/opt/lw/test/EAST_Tensorflow_C/test/test.cpp" "/opt/lw/test/EAST_Tensorflow_C/build/test/CMakeFiles/test_east.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,7 +25,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/opt/lw/test/east/build/src/CMakeFiles/east.dir/DependInfo.cmake"
+  "/opt/lw/test/EAST_Tensorflow_C/build/src/CMakeFiles/east.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

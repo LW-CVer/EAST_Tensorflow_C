@@ -11,6 +11,7 @@
 #include "tensorflow/cc/ops/standard_ops.h"
 namespace tf = tensorflow;
 
+namespace tf_east {
 tf::Status ReadTensorFromMat(const cv::Mat& mat, tf::Tensor& outTensor)
 {
     auto root = tf::Scope::NewRootScope();
@@ -303,3 +304,53 @@ std::vector<std::vector<float>> RestoreRectangle(
     }
     return final_results;
 }
+std::vector<int> GetRect(std::vector<float>& box)
+{
+    std::vector<int> rectangle;
+    int minx = 10000;
+    int miny = 10000;
+    int maxx = 0;
+    int maxy = 0;
+    for (int j = 0; j < 8; j++) {
+        if (j % 2 == 0) {
+            if (int(box[j]) < minx) {
+                minx = int(box[j]);
+            }
+            if (int(box[j]) > maxx) {
+                maxx = int(box[j]);
+            }
+        } else {
+            if (int(box[j]) < miny) {
+                miny = int(box[j]);
+            }
+            if (int(box[j]) > maxy) {
+                maxy = int(box[j]);
+            }
+        }
+    }
+    rectangle = {minx / 4, miny / 4, maxx / 4, maxy / 4};
+    return rectangle;
+}
+void GetScore(std::vector<std::vector<float>>& boxes,
+              tf::TTypes<float, 4>::Tensor& f_score,
+              std::vector<float>& final_scores)
+{
+    for (auto& one_box : boxes) {
+        std::vector<int> rect = tf_east::GetRect(one_box);
+        float temp_score = 0.8f;
+        for (int i = rect[0]; i < rect[2]; i++) {
+            for (int j = rect[1]; j < rect[3]; j++) {
+                if (f_score(0, j, i, 0) > temp_score) {
+                    temp_score = f_score(0, j, i, 0);
+                }
+            }
+        }
+        final_scores.push_back(temp_score);
+    }
+}
+
+int GetDist(int x1, int y1, int x2, int y2)
+{
+    return sqrt(pow((x2 - x1),2) + pow((y2 - y1),2));
+}
+}  // namespace tf_east

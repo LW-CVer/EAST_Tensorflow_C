@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/lw/test/east
+CMAKE_SOURCE_DIR = /opt/lw/test/EAST_Tensorflow_C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /opt/lw/test/east/build
+CMAKE_BINARY_DIR = /opt/lw/test/EAST_Tensorflow_C/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/east.dir/depend.make
@@ -59,68 +59,68 @@ include src/CMakeFiles/east.dir/flags.make
 
 src/CMakeFiles/east.dir/INIReader.cpp.o: src/CMakeFiles/east.dir/flags.make
 src/CMakeFiles/east.dir/INIReader.cpp.o: ../src/INIReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/lw/test/east/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/east.dir/INIReader.cpp.o"
-	cd /opt/lw/test/east/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/east.dir/INIReader.cpp.o -c /opt/lw/test/east/src/INIReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/east.dir/INIReader.cpp.o"
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/east.dir/INIReader.cpp.o -c /opt/lw/test/EAST_Tensorflow_C/src/INIReader.cpp
 
 src/CMakeFiles/east.dir/INIReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/east.dir/INIReader.cpp.i"
-	cd /opt/lw/test/east/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/lw/test/east/src/INIReader.cpp > CMakeFiles/east.dir/INIReader.cpp.i
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/lw/test/EAST_Tensorflow_C/src/INIReader.cpp > CMakeFiles/east.dir/INIReader.cpp.i
 
 src/CMakeFiles/east.dir/INIReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/east.dir/INIReader.cpp.s"
-	cd /opt/lw/test/east/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/lw/test/east/src/INIReader.cpp -o CMakeFiles/east.dir/INIReader.cpp.s
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/lw/test/EAST_Tensorflow_C/src/INIReader.cpp -o CMakeFiles/east.dir/INIReader.cpp.s
 
 src/CMakeFiles/east.dir/clipper.cpp.o: src/CMakeFiles/east.dir/flags.make
 src/CMakeFiles/east.dir/clipper.cpp.o: ../src/clipper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/lw/test/east/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/east.dir/clipper.cpp.o"
-	cd /opt/lw/test/east/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/east.dir/clipper.cpp.o -c /opt/lw/test/east/src/clipper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/east.dir/clipper.cpp.o"
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/east.dir/clipper.cpp.o -c /opt/lw/test/EAST_Tensorflow_C/src/clipper.cpp
 
 src/CMakeFiles/east.dir/clipper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/east.dir/clipper.cpp.i"
-	cd /opt/lw/test/east/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/lw/test/east/src/clipper.cpp > CMakeFiles/east.dir/clipper.cpp.i
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/lw/test/EAST_Tensorflow_C/src/clipper.cpp > CMakeFiles/east.dir/clipper.cpp.i
 
 src/CMakeFiles/east.dir/clipper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/east.dir/clipper.cpp.s"
-	cd /opt/lw/test/east/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/lw/test/east/src/clipper.cpp -o CMakeFiles/east.dir/clipper.cpp.s
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/lw/test/EAST_Tensorflow_C/src/clipper.cpp -o CMakeFiles/east.dir/clipper.cpp.s
 
 src/CMakeFiles/east.dir/east.cpp.o: src/CMakeFiles/east.dir/flags.make
 src/CMakeFiles/east.dir/east.cpp.o: ../src/east.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/lw/test/east/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/east.dir/east.cpp.o"
-	cd /opt/lw/test/east/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/east.dir/east.cpp.o -c /opt/lw/test/east/src/east.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/east.dir/east.cpp.o"
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/east.dir/east.cpp.o -c /opt/lw/test/EAST_Tensorflow_C/src/east.cpp
 
 src/CMakeFiles/east.dir/east.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/east.dir/east.cpp.i"
-	cd /opt/lw/test/east/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/lw/test/east/src/east.cpp > CMakeFiles/east.dir/east.cpp.i
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/lw/test/EAST_Tensorflow_C/src/east.cpp > CMakeFiles/east.dir/east.cpp.i
 
 src/CMakeFiles/east.dir/east.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/east.dir/east.cpp.s"
-	cd /opt/lw/test/east/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/lw/test/east/src/east.cpp -o CMakeFiles/east.dir/east.cpp.s
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/lw/test/EAST_Tensorflow_C/src/east.cpp -o CMakeFiles/east.dir/east.cpp.s
 
 src/CMakeFiles/east.dir/ini.cpp.o: src/CMakeFiles/east.dir/flags.make
 src/CMakeFiles/east.dir/ini.cpp.o: ../src/ini.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/lw/test/east/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/east.dir/ini.cpp.o"
-	cd /opt/lw/test/east/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/east.dir/ini.cpp.o -c /opt/lw/test/east/src/ini.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/east.dir/ini.cpp.o"
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/east.dir/ini.cpp.o -c /opt/lw/test/EAST_Tensorflow_C/src/ini.cpp
 
 src/CMakeFiles/east.dir/ini.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/east.dir/ini.cpp.i"
-	cd /opt/lw/test/east/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/lw/test/east/src/ini.cpp > CMakeFiles/east.dir/ini.cpp.i
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/lw/test/EAST_Tensorflow_C/src/ini.cpp > CMakeFiles/east.dir/ini.cpp.i
 
 src/CMakeFiles/east.dir/ini.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/east.dir/ini.cpp.s"
-	cd /opt/lw/test/east/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/lw/test/east/src/ini.cpp -o CMakeFiles/east.dir/ini.cpp.s
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/lw/test/EAST_Tensorflow_C/src/ini.cpp -o CMakeFiles/east.dir/ini.cpp.s
 
 src/CMakeFiles/east.dir/util.cpp.o: src/CMakeFiles/east.dir/flags.make
 src/CMakeFiles/east.dir/util.cpp.o: ../src/util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/lw/test/east/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/east.dir/util.cpp.o"
-	cd /opt/lw/test/east/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/east.dir/util.cpp.o -c /opt/lw/test/east/src/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/east.dir/util.cpp.o"
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/east.dir/util.cpp.o -c /opt/lw/test/EAST_Tensorflow_C/src/util.cpp
 
 src/CMakeFiles/east.dir/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/east.dir/util.cpp.i"
-	cd /opt/lw/test/east/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/lw/test/east/src/util.cpp > CMakeFiles/east.dir/util.cpp.i
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/lw/test/EAST_Tensorflow_C/src/util.cpp > CMakeFiles/east.dir/util.cpp.i
 
 src/CMakeFiles/east.dir/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/east.dir/util.cpp.s"
-	cd /opt/lw/test/east/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/lw/test/east/src/util.cpp -o CMakeFiles/east.dir/util.cpp.s
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && /opt/rh/devtoolset-7/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/lw/test/EAST_Tensorflow_C/src/util.cpp -o CMakeFiles/east.dir/util.cpp.s
 
 # Object files for target east
 east_OBJECTS = \
@@ -143,8 +143,8 @@ src/libeast.so: /usr/local/lib64/libopencv_imgproc.so.3.4.4
 src/libeast.so: /usr/local/lib64/libopencv_core.so.3.4.4
 src/libeast.so: /usr/local/lib64/libopencv_cudev.so.3.4.4
 src/libeast.so: src/CMakeFiles/east.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/opt/lw/test/east/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libeast.so"
-	cd /opt/lw/test/east/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/east.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libeast.so"
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/east.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/east.dir/build: src/libeast.so
@@ -152,10 +152,10 @@ src/CMakeFiles/east.dir/build: src/libeast.so
 .PHONY : src/CMakeFiles/east.dir/build
 
 src/CMakeFiles/east.dir/clean:
-	cd /opt/lw/test/east/build/src && $(CMAKE_COMMAND) -P CMakeFiles/east.dir/cmake_clean.cmake
+	cd /opt/lw/test/EAST_Tensorflow_C/build/src && $(CMAKE_COMMAND) -P CMakeFiles/east.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/east.dir/clean
 
 src/CMakeFiles/east.dir/depend:
-	cd /opt/lw/test/east/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/lw/test/east /opt/lw/test/east/src /opt/lw/test/east/build /opt/lw/test/east/build/src /opt/lw/test/east/build/src/CMakeFiles/east.dir/DependInfo.cmake --color=$(COLOR)
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/lw/test/EAST_Tensorflow_C /opt/lw/test/EAST_Tensorflow_C/src /opt/lw/test/EAST_Tensorflow_C/build /opt/lw/test/EAST_Tensorflow_C/build/src /opt/lw/test/EAST_Tensorflow_C/build/src/CMakeFiles/east.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/east.dir/depend
 

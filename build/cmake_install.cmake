@@ -1,4 +1,4 @@
-# Install script for directory: /opt/lw/test/east
+# Install script for directory: /opt/lw/test/EAST_Tensorflow_C
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/opt/lw/test/east/build/src/cmake_install.cmake")
-  include("/opt/lw/test/east/build/test/cmake_install.cmake")
+  include("/opt/lw/test/EAST_Tensorflow_C/build/src/cmake_install.cmake")
+  include("/opt/lw/test/EAST_Tensorflow_C/build/test/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/opt/lw/test/east/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/opt/lw/test/EAST_Tensorflow_C/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

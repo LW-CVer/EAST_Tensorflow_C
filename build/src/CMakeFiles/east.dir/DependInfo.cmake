@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/lw/test/east/src/INIReader.cpp" "/opt/lw/test/east/build/src/CMakeFiles/east.dir/INIReader.cpp.o"
-  "/opt/lw/test/east/src/clipper.cpp" "/opt/lw/test/east/build/src/CMakeFiles/east.dir/clipper.cpp.o"
-  "/opt/lw/test/east/src/east.cpp" "/opt/lw/test/east/build/src/CMakeFiles/east.dir/east.cpp.o"
-  "/opt/lw/test/east/src/ini.cpp" "/opt/lw/test/east/build/src/CMakeFiles/east.dir/ini.cpp.o"
-  "/opt/lw/test/east/src/util.cpp" "/opt/lw/test/east/build/src/CMakeFiles/east.dir/util.cpp.o"
+  "/opt/lw/test/EAST_Tensorflow_C/src/INIReader.cpp" "/opt/lw/test/EAST_Tensorflow_C/build/src/CMakeFiles/east.dir/INIReader.cpp.o"
+  "/opt/lw/test/EAST_Tensorflow_C/src/clipper.cpp" "/opt/lw/test/EAST_Tensorflow_C/build/src/CMakeFiles/east.dir/clipper.cpp.o"
+  "/opt/lw/test/EAST_Tensorflow_C/src/east.cpp" "/opt/lw/test/EAST_Tensorflow_C/build/src/CMakeFiles/east.dir/east.cpp.o"
+  "/opt/lw/test/EAST_Tensorflow_C/src/ini.cpp" "/opt/lw/test/EAST_Tensorflow_C/build/src/CMakeFiles/east.dir/ini.cpp.o"
+  "/opt/lw/test/EAST_Tensorflow_C/src/util.cpp" "/opt/lw/test/EAST_Tensorflow_C/build/src/CMakeFiles/east.dir/util.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

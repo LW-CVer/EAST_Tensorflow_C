@@ -1,4 +1,4 @@
-# Install script for directory: /opt/lw/test/east/test
+# Install script for directory: /opt/lw/test/EAST_Tensorflow_C/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

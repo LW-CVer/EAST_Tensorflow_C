@@ -1,8 +1,8 @@
-/opt/lw/test/east/build/CMakeFiles/rebuild_cache.dir
-/opt/lw/test/east/build/CMakeFiles/edit_cache.dir
-/opt/lw/test/east/build/src/CMakeFiles/rebuild_cache.dir
-/opt/lw/test/east/build/src/CMakeFiles/edit_cache.dir
-/opt/lw/test/east/build/src/CMakeFiles/east.dir
-/opt/lw/test/east/build/test/CMakeFiles/rebuild_cache.dir
-/opt/lw/test/east/build/test/CMakeFiles/edit_cache.dir
-/opt/lw/test/east/build/test/CMakeFiles/test_east.dir
+/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/rebuild_cache.dir
+/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/edit_cache.dir
+/opt/lw/test/EAST_Tensorflow_C/build/src/CMakeFiles/rebuild_cache.dir
+/opt/lw/test/EAST_Tensorflow_C/build/src/CMakeFiles/edit_cache.dir
+/opt/lw/test/EAST_Tensorflow_C/build/src/CMakeFiles/east.dir
+/opt/lw/test/EAST_Tensorflow_C/build/test/CMakeFiles/rebuild_cache.dir
+/opt/lw/test/EAST_Tensorflow_C/build/test/CMakeFiles/edit_cache.dir
+/opt/lw/test/EAST_Tensorflow_C/build/test/CMakeFiles/test_east.dir

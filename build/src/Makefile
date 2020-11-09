@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /opt/lw/test/east
+CMAKE_SOURCE_DIR = /opt/lw/test/EAST_Tensorflow_C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /opt/lw/test/east/build
+CMAKE_BINARY_DIR = /opt/lw/test/EAST_Tensorflow_C/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /opt/lw/test/east/build && $(CMAKE_COMMAND) -E cmake_progress_start /opt/lw/test/east/build/CMakeFiles /opt/lw/test/east/build/src/CMakeFiles/progress.marks
-	cd /opt/lw/test/east/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /opt/lw/test/east/build/CMakeFiles 0
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(CMAKE_COMMAND) -E cmake_progress_start /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles /opt/lw/test/EAST_Tensorflow_C/build/src/CMakeFiles/progress.marks
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /opt/lw/test/east/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /opt/lw/test/east/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /opt/lw/test/east/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /opt/lw/test/east/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/east.dir/rule:
-	cd /opt/lw/test/east/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/east.dir/rule
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/east.dir/rule
 .PHONY : src/CMakeFiles/east.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ east: src/CMakeFiles/east.dir/rule
 
 # fast build rule for target.
 east/fast:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/build
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/build
 .PHONY : east/fast
 
 INIReader.o: INIReader.cpp.o
@@ -131,7 +131,7 @@ INIReader.o: INIReader.cpp.o
 
 # target to build an object file
 INIReader.cpp.o:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/INIReader.cpp.o
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/INIReader.cpp.o
 .PHONY : INIReader.cpp.o
 
 INIReader.i: INIReader.cpp.i
@@ -140,7 +140,7 @@ INIReader.i: INIReader.cpp.i
 
 # target to preprocess a source file
 INIReader.cpp.i:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/INIReader.cpp.i
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/INIReader.cpp.i
 .PHONY : INIReader.cpp.i
 
 INIReader.s: INIReader.cpp.s
@@ -149,7 +149,7 @@ INIReader.s: INIReader.cpp.s
 
 # target to generate assembly for a file
 INIReader.cpp.s:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/INIReader.cpp.s
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/INIReader.cpp.s
 .PHONY : INIReader.cpp.s
 
 clipper.o: clipper.cpp.o
@@ -158,7 +158,7 @@ clipper.o: clipper.cpp.o
 
 # target to build an object file
 clipper.cpp.o:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/clipper.cpp.o
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/clipper.cpp.o
 .PHONY : clipper.cpp.o
 
 clipper.i: clipper.cpp.i
@@ -167,7 +167,7 @@ clipper.i: clipper.cpp.i
 
 # target to preprocess a source file
 clipper.cpp.i:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/clipper.cpp.i
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/clipper.cpp.i
 .PHONY : clipper.cpp.i
 
 clipper.s: clipper.cpp.s
@@ -176,7 +176,7 @@ clipper.s: clipper.cpp.s
 
 # target to generate assembly for a file
 clipper.cpp.s:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/clipper.cpp.s
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/clipper.cpp.s
 .PHONY : clipper.cpp.s
 
 east.o: east.cpp.o
@@ -185,7 +185,7 @@ east.o: east.cpp.o
 
 # target to build an object file
 east.cpp.o:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/east.cpp.o
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/east.cpp.o
 .PHONY : east.cpp.o
 
 east.i: east.cpp.i
@@ -194,7 +194,7 @@ east.i: east.cpp.i
 
 # target to preprocess a source file
 east.cpp.i:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/east.cpp.i
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/east.cpp.i
 .PHONY : east.cpp.i
 
 east.s: east.cpp.s
@@ -203,7 +203,7 @@ east.s: east.cpp.s
 
 # target to generate assembly for a file
 east.cpp.s:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/east.cpp.s
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/east.cpp.s
 .PHONY : east.cpp.s
 
 ini.o: ini.cpp.o
@@ -212,7 +212,7 @@ ini.o: ini.cpp.o
 
 # target to build an object file
 ini.cpp.o:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/ini.cpp.o
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/ini.cpp.o
 .PHONY : ini.cpp.o
 
 ini.i: ini.cpp.i
@@ -221,7 +221,7 @@ ini.i: ini.cpp.i
 
 # target to preprocess a source file
 ini.cpp.i:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/ini.cpp.i
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/ini.cpp.i
 .PHONY : ini.cpp.i
 
 ini.s: ini.cpp.s
@@ -230,7 +230,7 @@ ini.s: ini.cpp.s
 
 # target to generate assembly for a file
 ini.cpp.s:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/ini.cpp.s
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/ini.cpp.s
 .PHONY : ini.cpp.s
 
 util.o: util.cpp.o
@@ -239,7 +239,7 @@ util.o: util.cpp.o
 
 # target to build an object file
 util.cpp.o:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/util.cpp.o
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/util.cpp.o
 .PHONY : util.cpp.o
 
 util.i: util.cpp.i
@@ -248,7 +248,7 @@ util.i: util.cpp.i
 
 # target to preprocess a source file
 util.cpp.i:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/util.cpp.i
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/util.cpp.i
 .PHONY : util.cpp.i
 
 util.s: util.cpp.s
@@ -257,7 +257,7 @@ util.s: util.cpp.s
 
 # target to generate assembly for a file
 util.cpp.s:
-	cd /opt/lw/test/east/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/util.cpp.s
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(MAKE) -f src/CMakeFiles/east.dir/build.make src/CMakeFiles/east.dir/util.cpp.s
 .PHONY : util.cpp.s
 
 # Help Target
@@ -295,6 +295,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /opt/lw/test/east/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /opt/lw/test/EAST_Tensorflow_C/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

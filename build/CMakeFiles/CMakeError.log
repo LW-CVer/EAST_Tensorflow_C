@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_95bad/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_95bad.dir/build.make CMakeFiles/cmTC_95bad.dir/build
-gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_95bad.dir/CheckSymbolExists.c.o
-/opt/rh/devtoolset-7/root/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_95bad.dir/CheckSymbolExists.c.o   -c /opt/lw/test/east/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_95bad
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95bad.dir/link.txt --verbose=1
-/opt/rh/devtoolset-7/root/usr/bin/cc -fPIC     CMakeFiles/cmTC_95bad.dir/CheckSymbolExists.c.o  -o cmTC_95bad 
-CMakeFiles/cmTC_95bad.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command(s):/usr/bin/gmake cmTC_ebf4a/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_ebf4a.dir/build.make CMakeFiles/cmTC_ebf4a.dir/build
+gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebf4a.dir/CheckSymbolExists.c.o
+/opt/rh/devtoolset-7/root/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_ebf4a.dir/CheckSymbolExists.c.o   -c /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ebf4a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebf4a.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/cc -fPIC     CMakeFiles/cmTC_ebf4a.dir/CheckSymbolExists.c.o  -o cmTC_ebf4a 
+CMakeFiles/cmTC_ebf4a.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [cmTC_95bad] Error 1
-gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-gmake: *** [cmTC_95bad/fast] Error 2
+gmake[1]: *** [cmTC_ebf4a] Error 1
+gmake[1]: Leaving directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_ebf4a/fast] Error 2
 
-File /opt/lw/test/east/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -32,20 +32,20 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /opt/lw/test/east/build/CMakeFiles/CMakeTmp
+Change Dir: /opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake cmTC_1ca26/fast 
-/usr/bin/gmake -f CMakeFiles/cmTC_1ca26.dir/build.make CMakeFiles/cmTC_1ca26.dir/build
-gmake[1]: Entering directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1ca26.dir/CheckFunctionExists.c.o
-/opt/rh/devtoolset-7/root/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1ca26.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.14/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1ca26
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ca26.dir/link.txt --verbose=1
-/opt/rh/devtoolset-7/root/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1ca26.dir/CheckFunctionExists.c.o  -o cmTC_1ca26 -lpthreads 
+Run Build Command(s):/usr/bin/gmake cmTC_d126c/fast 
+/usr/bin/gmake -f CMakeFiles/cmTC_d126c.dir/build.make CMakeFiles/cmTC_d126c.dir/build
+gmake[1]: Entering directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d126c.dir/CheckFunctionExists.c.o
+/opt/rh/devtoolset-7/root/usr/bin/cc   -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d126c.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d126c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d126c.dir/link.txt --verbose=1
+/opt/rh/devtoolset-7/root/usr/bin/cc -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_d126c.dir/CheckFunctionExists.c.o  -o cmTC_d126c -lpthreads 
 /opt/rh/devtoolset-7/root/usr/libexec/gcc/x86_64-redhat-linux/7/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [cmTC_1ca26] Error 1
-gmake[1]: Leaving directory `/opt/lw/test/east/build/CMakeFiles/CMakeTmp'
-gmake: *** [cmTC_1ca26/fast] Error 2
+gmake[1]: *** [cmTC_d126c] Error 1
+gmake[1]: Leaving directory `/opt/lw/test/EAST_Tensorflow_C/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_d126c/fast] Error 2
 
 

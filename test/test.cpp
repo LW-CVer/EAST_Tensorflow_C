@@ -4,7 +4,7 @@
 #include "opencv2/imgproc/imgproc.hpp"
 int main()
 {
-    std::string image_path = "../../model/test.jpg";
+    std::string image_path = "../../model/test1.jpg";
     std::string model_path = "../../model/east.pb";
     std::string ini_path = "../../config/east.ini";
     std::shared_ptr<EastBase> east = CreateEast();
